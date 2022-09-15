@@ -1,0 +1,139 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .project {
+    width: 100%;
+  }
+
+  .projects {
+    margin-left: 5px;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .about p {
+    margin-left: -120px;
+    margin-right: -120px;
+  }
+
+  .about h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 45px;
+    margin-bottom: -10px;
+    margin-left: 35px;
+  }
+
+  .form input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    width: 50%;
+    height: 40px;
+    border: 2px solid black;
+  }
+
+  .footer-contact{
+  padding-right: 30px;
+  }
+
+  .material-symbols-outlined {
+    color: black;
+    float: right;
+    padding: 15px 15px 20px 15px;
+  }
+  
+  .material-symbols-outlined:hover {
+    color: whitesmoke;
+    background-color: black;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .project {
+    width: 100%;
+  }
+
+  .projects {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .welcome-page h1 {
+    font-size: 47px;
+    margin-bottom: 300px;
+  }
+
+  .welcome-page {
+    height: 24%;
+    
+  }
+
+  .enjoy {
+    margin-bottom: -180px;
+  }
+
+  .about p {
+    margin-left: -150px;
+    margin-right: -110px;
+    padding-bottom: -200px;
+  }
+
+  .about h3 {
+    float: left;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    margin-left: -150px;
+    padding-right: 20px;
+  }
+
+  .about img {
+    margin-left: -160px;
+  }
+
+  .form input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    width: 85%;
+    height: 40px;
+    border: 2px solid black;
+  }
+
+  .footer-contact{
+    padding-right: 15px;
+    font-size: 7px;
+    padding-top: -30px;
+    padding-bottom: -30px;
+  }
+
+  .title-foot {
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0.7;
+    padding-top: -50px;
+  }
+  
+  .desc-foot {
+    font-size: 10px;
+    opacity: 0.7;
+    padding-left: 3px;
+  }
+
+  .material-symbols-outlined {
+    color: black;
+    float: right;
+    padding: 15px 15px 20px 15px;
+  }
+  
+  .material-symbols-outlined:hover {
+    color: whitesmoke;
+    background-color: black;
+  }
+}
