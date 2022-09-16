@@ -1,5 +1,19 @@
 /* Untuk Tablet */
-@media all and (max-width: 1000px) {
+@media (max-width: 800px) {
+  header {
+    width: 100%;
+  }
+
+  .welcome-page a {
+    margin: 0px -110px px 120px;
+  }
+
+  .welcome-page h1 {
+    margin: 0px 0px 0px 0px;
+    padding: 70px 0px 0px 120px;
+  }
+
+
   .project {
     width: 100%;
   }
@@ -49,49 +63,63 @@
 }
 
 /* Untuk Smartphone */
-@media all and (max-width: 670px) {
-  .project {
-    width: 100%;
-  }
-
-  .projects {
-    margin-left: 2px;
-    margin-right: 2px;
+@media (max-width:600px) {
+  
+  header {
+    width: 100%
   }
 
   .header-right {
     display: none;
   }
 
-  .welcome-page h1 {
-    font-size: 47px;
-    margin-bottom: 300px;
+  .welcome-page {
+    height: 21%;
+    width: 99.5%
   }
 
-  .welcome-page {
-    height: 24%;
-    
+  .welcome-page h1 {
+    font-size: 50px;
+    margin-bottom:240px;
+    margin-left: -150px;
+  }
+
+  .welcome-page a {
+    margin-left: -150px;
+  }
+   
+  .project-wrapper h2 {
+    margin-left: -10px;
+  } 
+
+  .project {
+    width: 100%;
+  }
+
+  .projects {
+    margin-left: -2px;
+    margin-right: 2px;
   }
 
   .enjoy {
-    margin-bottom: -180px;
+    margin-bottom: -120px;
   }
 
   .about p {
-    margin-left: -150px;
-    margin-right: -110px;
+    margin-left: -158px;
+    margin-right: -10px;
     padding-bottom: -200px;
   }
 
   .about h3 {
     float: left;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 50px;
+    font-size: 35px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 5px;
     margin-left: -150px;
-    padding-right: 20px;
+    padding-right: 100px;
   }
 
   .about img {
@@ -107,17 +135,15 @@
   }
 
   .footer-contact{
-    padding-right: 15px;
-    font-size: 7px;
-    padding-top: -30px;
-    padding-bottom: -30px;
+    padding: 0px -100px 0px 0px;
+    margin: -80px 0px 0px -100px;
   }
 
   .title-foot {
     font-size: 20px;
     font-weight: bold;
     opacity: 0.7;
-    padding-top: -50px;
+    padding-top: -20px;
   }
   
   .desc-foot {
@@ -129,11 +155,12 @@
   .material-symbols-outlined {
     color: black;
     float: right;
-    padding: 15px 15px 20px 15px;
+    padding: 15px -15px 20px 15px;
   }
   
   .material-symbols-outlined:hover {
     color: whitesmoke;
     background-color: black;
   }
+
 }
